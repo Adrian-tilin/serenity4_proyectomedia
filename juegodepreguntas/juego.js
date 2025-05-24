@@ -1,4 +1,4 @@
-//Arreglo que contiene las preguntas
+
 const preguntas = [
     {
         id:1,
@@ -274,7 +274,7 @@ function agregarEventListenerBoton(e){
 
 cargarSiguientePregunta(numPreguntaActual);
 
-// Botón siguiente corregido
+
 const btnSiguiente = document.querySelector("#siguiente");
 btnSiguiente.addEventListener("click", () => {
     numPreguntaActual++;

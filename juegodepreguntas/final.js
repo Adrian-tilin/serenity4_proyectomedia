@@ -17,7 +17,7 @@ totalAcertadas.innerHTML = correctas;
 totalNoAcertadas.innerHTML = incorrectas;
 
 btnComenar.addEventListener("click", () => {
-    location.href = "index.html";
+    location.href = "juegoP.html";
 });
 
 //  botón de salir
